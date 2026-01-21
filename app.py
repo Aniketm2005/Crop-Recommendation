@@ -11,9 +11,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-with open('crop_model.pkl', 'rb') as f:
-    crop_model = pickle.load(f)
-
 
 # Load saved objects
 model = pickle.load(open("crop_model.pkl", "rb"))
